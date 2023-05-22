@@ -2,6 +2,7 @@ import React from "react";
 import { useState } from "react";
 import { useEffect } from "react";
 import MealItem from "./MealItem";
+import {GiFoodTruck} from "react-icons/gi"
 // import ReacipeIndex from "./RecipeIndex";
 const Meal = () => {
     const [search,setSearch]=useState();
@@ -26,6 +27,7 @@ return (
     <>
         <div className="main">
             <div className="heading">
+                <GiFoodTruck color="white"size="5rem"/>
                 <h1>Search Your Food Recipe</h1>
             </div>
             <div className="searchBox">
